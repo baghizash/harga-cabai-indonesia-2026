@@ -1,0 +1,4 @@
+data/harga_cabai.db
+*.db
+__pycache__/
+.ipynb_checkpoints/
