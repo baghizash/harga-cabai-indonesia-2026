@@ -98,6 +98,14 @@ tempel 15 measure DAX, bangun 4 halaman sesuai `dashboard_layout.md`).
 Perakitan dilakukan di Power BI Desktop di Windows — folder ini hanya berisi
 bahan siap import, bukan file `.pbix`.
 
+### Pratinjau dashboard
+
+![Pratinjau halaman 1 dashboard](powerbi/dashboard_preview_halaman1.png)
+
+Pratinjau tata letak halaman 1 (Overview) yang dibuat langsung dari data asli
+repo ini. GitHub tidak bisa me-render file `.pbix`, jadi pratinjau ini yang
+tampil di halaman repo sampai dashboard Power BI-nya selesai dirakit.
+
 ## Cara mereproduksi
 
 ```bash
