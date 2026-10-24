@@ -131,7 +131,7 @@ naik {lonj['kenaikan_persen']}%. Kenaikan terbesar terjadi pada September
 {F['mom_rawit_merah_2026']['2026-10']:+}%.
 
 Fakta menarik: keempat komoditas mencapai puncak 2026 dalam jendela yang sama,
-12–16 Oktober 2026 — lonjakannya serentak, bukan satu komoditas saja.
+12–20 Oktober 2026 — lonjakannya serentak, bukan satu komoditas saja.
 """)
 code("""display(Image("charts/05_lonjakan_oktober.png"))""")
 code("""display(Image("charts/09_mom_rawit_merah.png"))""")
