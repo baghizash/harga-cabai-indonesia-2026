@@ -145,7 +145,12 @@ s.shapes.add_picture(str(CHARTS / "05_lonjakan_oktober.png"),
                      Inches(6.35), Inches(0.7), width=Inches(6.35))
 rect(s, 6.35, 3.95, 6.35, 2.62, MARINE)
 tf = textbox(s, 6.7, 4.22, 5.7, 0.4)
-add_par(tf, "PUNCAK CABAI RAWIT MERAH - 12 OKTOBER 2026", 12, BUTTER,
+_pk = F["puncak_2026"]["Cabai Rawit Merah"]["tanggal"]
+_BULAN_ID = ["JANUARI", "FEBRUARI", "MARET", "APRIL", "MEI", "JUNI", "JULI",
+             "AGUSTUS", "SEPTEMBER", "OKTOBER", "NOVEMBER", "DESEMBER"]
+_pk_label = (f"PUNCAK CABAI RAWIT MERAH - {int(_pk[8:10])} "
+             f"{_BULAN_ID[int(_pk[5:7]) - 1]} {_pk[:4]}")
+add_par(tf, _pk_label, 12, BUTTER,
         bold=True, first=True)
 tf = textbox(s, 6.7, 4.58, 5.7, 1.25)
 p = tf.paragraphs[0]
