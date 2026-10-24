@@ -1,16 +1,16 @@
 {
   "coverage": {
     "tanggal_awal": "2025-01-01",
-    "tanggal_akhir": "2026-10-16",
+    "tanggal_akhir": "2026-10-23",
     "hari_pelaporan_nasional": {
-      "Cabai Merah Besar": 468,
-      "Cabai Merah Keriting": 468,
-      "Cabai Rawit Hijau": 468,
-      "Cabai Rawit Merah": 468
+      "Cabai Merah Besar": 473,
+      "Cabai Merah Keriting": 473,
+      "Cabai Rawit Hijau": 473,
+      "Cabai Rawit Merah": 473
     },
-    "baris_provinsi": 58253,
-    "baris_provinsi_total": 59436,
-    "baris_nasional": 1872,
+    "baris_provinsi": 58874,
+    "baris_provinsi_total": 60061,
+    "baris_nasional": 1892,
     "hari_tanpa_harga_nasional": {
       "Cabai Merah Besar": 0,
       "Cabai Merah Keriting": 0,
@@ -32,23 +32,23 @@
   "rata_tahunan": {
     "Cabai Merah Besar": {
       "2025": 53267,
-      "2026": 51706,
-      "perubahan_persen": -2.9
+      "2026": 52267,
+      "perubahan_persen": -1.9
     },
     "Cabai Merah Keriting": {
       "2025": 55609,
-      "2026": 53277,
-      "perubahan_persen": -4.2
+      "2026": 54072,
+      "perubahan_persen": -2.8
     },
     "Cabai Rawit Hijau": {
       "2025": 51117,
-      "2026": 56578,
-      "perubahan_persen": 10.7
+      "2026": 57124,
+      "perubahan_persen": 11.8
     },
     "Cabai Rawit Merah": {
       "2025": 65790,
-      "2026": 74530,
-      "perubahan_persen": 13.3
+      "2026": 75219,
+      "perubahan_persen": 14.3
     }
   },
   "bulanan_2026": {
@@ -107,44 +107,44 @@
       "Cabai Rawit Merah": 92507
     },
     "2026-10": {
-      "Cabai Merah Besar": 70588,
-      "Cabai Merah Keriting": 83542,
-      "Cabai Rawit Hijau": 76129,
-      "Cabai Rawit Merah": 102988
+      "Cabai Merah Besar": 72032,
+      "Cabai Merah Keriting": 84559,
+      "Cabai Rawit Hijau": 77194,
+      "Cabai Rawit Merah": 103215
     }
   },
   "volatilitas_2026": {
     "Cabai Merah Besar": {
-      "rata": 51706,
-      "std": 8308,
-      "cv_persen": 16.1,
+      "rata": 52267,
+      "std": 8968,
+      "cv_persen": 17.2,
       "min": 38850,
       "maks": 76450,
       "rentang": 37600
     },
     "Cabai Merah Keriting": {
-      "rata": 53277,
-      "std": 10674,
-      "cv_persen": 20.0,
+      "rata": 54072,
+      "std": 11724,
+      "cv_persen": 21.7,
       "min": 39650,
       "maks": 88350,
       "rentang": 48700
     },
     "Cabai Rawit Hijau": {
-      "rata": 56578,
-      "std": 6948,
-      "cv_persen": 12.3,
+      "rata": 57124,
+      "std": 7714,
+      "cv_persen": 13.5,
       "min": 48300,
-      "maks": 79750,
-      "rentang": 31450
+      "maks": 80100,
+      "rentang": 31800
     },
     "Cabai Rawit Merah": {
-      "rata": 74530,
-      "std": 13980,
-      "cv_persen": 18.8,
+      "rata": 75219,
+      "std": 14509,
+      "cv_persen": 19.3,
       "min": 54000,
-      "maks": 105300,
-      "rentang": 51300
+      "maks": 105450,
+      "rentang": 51450
     }
   },
   "komoditas_paling_volatile": "Cabai Merah Keriting",
@@ -159,12 +159,12 @@
       "tanggal": "2026-10-12"
     },
     "Cabai Rawit Hijau": {
-      "harga": 79750,
-      "tanggal": "2026-10-16"
+      "harga": 80100,
+      "tanggal": "2026-10-20"
     },
     "Cabai Rawit Merah": {
-      "harga": 105300,
-      "tanggal": "2026-10-12"
+      "harga": 105450,
+      "tanggal": "2026-10-20"
     }
   },
   "tembus_rawit_merah": {
@@ -183,10 +183,10 @@
       "harga": 100550
     },
     "maks_oktober": {
-      "tanggal": "2026-10-12",
-      "harga": 105300
+      "tanggal": "2026-10-20",
+      "harga": 105450
     },
-    "kenaikan_persen": 4.7,
+    "kenaikan_persen": 4.9,
     "nilai_14_okt": 104500
   },
   "lonjakan_harian_terbesar_2026": [
@@ -235,222 +235,222 @@
     "2026-07": -21.1,
     "2026-08": 14.3,
     "2026-09": 39.3,
-    "2026-10": 11.3
+    "2026-10": 11.6
   },
   "provinsi_2026": {
     "Cabai Merah Besar": {
       "termahal": {
         "provinsi": "Papua",
-        "harga": 84170
+        "harga": 84574
       },
       "termurah": {
         "provinsi": "Jawa Timur",
-        "harga": 34672
+        "harga": 34880
       },
-      "selisih": 49498,
-      "selisih_persen": 142.8,
+      "selisih": 49693,
+      "selisih_persen": 142.5,
       "n_provinsi": 28,
       "top5": [
         {
           "provinsi": "Papua",
-          "harga": 84170
+          "harga": 84574
         },
         {
           "provinsi": "Kalimantan Tengah",
-          "harga": 83407
+          "harga": 83725
         },
         {
           "provinsi": "Kalimantan Utara",
-          "harga": 70531
+          "harga": 71169
         },
         {
           "provinsi": "Papua Barat",
-          "harga": 67899
+          "harga": 68774
         },
         {
           "provinsi": "Kalimantan Barat",
-          "harga": 66972
+          "harga": 68054
         }
       ]
     },
     "Cabai Merah Keriting": {
       "termahal": {
         "provinsi": "Maluku",
-        "harga": 84800
+        "harga": 85666
       },
       "termurah": {
         "provinsi": "Sulawesi Selatan",
-        "harga": 36322
+        "harga": 37298
       },
-      "selisih": 48478,
-      "selisih_persen": 133.5,
+      "selisih": 48367,
+      "selisih_persen": 129.7,
       "n_provinsi": 34,
       "top5": [
         {
           "provinsi": "Maluku",
-          "harga": 84800
+          "harga": 85666
         },
         {
           "provinsi": "Papua",
-          "harga": 80668
-        },
-        {
-          "provinsi": "Kalimantan Tengah",
-          "harga": 78626
+          "harga": 81852
         },
         {
           "provinsi": "Kalimantan Barat",
-          "harga": 78480
+          "harga": 79902
+        },
+        {
+          "provinsi": "Kalimantan Tengah",
+          "harga": 79116
         },
         {
           "provinsi": "Maluku Utara",
-          "harga": 73841
+          "harga": 74458
         }
       ]
     },
     "Cabai Rawit Hijau": {
       "termahal": {
         "provinsi": "Maluku Utara",
-        "harga": 98986
+        "harga": 100248
       },
       "termurah": {
         "provinsi": "Sulawesi Selatan",
-        "harga": 29442
+        "harga": 30010
       },
-      "selisih": 69543,
-      "selisih_persen": 236.2,
+      "selisih": 70238,
+      "selisih_persen": 234.1,
       "n_provinsi": 33,
       "top5": [
         {
           "provinsi": "Maluku Utara",
-          "harga": 98986
+          "harga": 100248
         },
         {
           "provinsi": "Kalimantan Utara",
-          "harga": 91185
+          "harga": 91572
         },
         {
           "provinsi": "Kalimantan Barat",
-          "harga": 78430
+          "harga": 79415
         },
         {
           "provinsi": "Sulawesi Tengah",
-          "harga": 74656
+          "harga": 76575
         },
         {
           "provinsi": "Kalimantan Timur",
-          "harga": 70574
+          "harga": 71138
         }
       ]
     },
     "Cabai Rawit Merah": {
       "termahal": {
         "provinsi": "Maluku Utara",
-        "harga": 113213
+        "harga": 114198
       },
       "termurah": {
         "provinsi": "Sumatera Utara",
-        "harga": 46494
+        "harga": 46920
       },
-      "selisih": 66719,
-      "selisih_persen": 143.5,
+      "selisih": 67278,
+      "selisih_persen": 143.4,
       "n_provinsi": 32,
       "top5": [
         {
           "provinsi": "Maluku Utara",
-          "harga": 113213
+          "harga": 114198
         },
         {
           "provinsi": "Maluku",
-          "harga": 109819
+          "harga": 111050
         },
         {
           "provinsi": "Papua",
-          "harga": 103166
+          "harga": 104018
         },
         {
           "provinsi": "Kalimantan Utara",
-          "harga": 98648
+          "harga": 99781
         },
         {
           "provinsi": "Kalimantan Tengah",
-          "harga": 95697
+          "harga": 96232
         }
       ]
     }
   },
   "jawa_vs_luar_2026": {
     "Cabai Merah Besar": {
-      "jawa": 46109,
-      "luar_jawa": 53289
+      "jawa": 46395,
+      "luar_jawa": 53922
     },
     "Cabai Merah Keriting": {
-      "jawa": 44468,
-      "luar_jawa": 55158
+      "jawa": 45026,
+      "luar_jawa": 56000
     },
     "Cabai Rawit Hijau": {
-      "jawa": 48671,
-      "luar_jawa": 58395
+      "jawa": 48833,
+      "luar_jawa": 59028
     },
     "Cabai Rawit Merah": {
-      "jawa": 69942,
-      "luar_jawa": 75598
+      "jawa": 70029,
+      "luar_jawa": 76423
     }
   },
   "jakarta_vs_nasional_2026": {
     "Cabai Merah Besar": {
-      "jakarta": 55738,
-      "nasional": 51706,
-      "selisih_persen": 7.8
+      "jakarta": 56108,
+      "nasional": 52267,
+      "selisih_persen": 7.3
     },
     "Cabai Merah Keriting": {
-      "jakarta": 50597,
-      "nasional": 53277,
-      "selisih_persen": -5.0
+      "jakarta": 51192,
+      "nasional": 54072,
+      "selisih_persen": -5.3
     },
     "Cabai Rawit Hijau": {
-      "jakarta": 56384,
-      "nasional": 56578,
-      "selisih_persen": -0.3
+      "jakarta": 56573,
+      "nasional": 57124,
+      "selisih_persen": -1.0
     },
     "Cabai Rawit Merah": {
-      "jakarta": 78792,
-      "nasional": 74530,
-      "selisih_persen": 5.7
+      "jakarta": 78870,
+      "nasional": 75219,
+      "selisih_persen": 4.9
     }
   },
   "cv_provinsi_rawit_merah_2026": [
     {
       "provinsi": "Sulawesi Utara",
-      "cv_persen": 50.1
+      "cv_persen": 50.9
     },
     {
       "provinsi": "Gorontalo",
-      "cv_persen": 47.5
-    },
-    {
-      "provinsi": "Sulawesi Tengah",
-      "cv_persen": 37.1
-    },
-    {
-      "provinsi": "Sulawesi Barat",
-      "cv_persen": 36.7
+      "cv_persen": 48.1
     },
     {
       "provinsi": "Sulawesi Tenggara",
-      "cv_persen": 36.0
+      "cv_persen": 40.1
+    },
+    {
+      "provinsi": "Sulawesi Tengah",
+      "cv_persen": 39.1
+    },
+    {
+      "provinsi": "Sulawesi Barat",
+      "cv_persen": 38.7
     },
     {
       "provinsi": "Sulawesi Selatan",
-      "cv_persen": 35.5
+      "cv_persen": 36.3
     },
     {
       "provinsi": "Papua Barat",
-      "cv_persen": 32.0
+      "cv_persen": 34.2
     },
     {
       "provinsi": "Nusa Tenggara Barat",
-      "cv_persen": 31.6
+      "cv_persen": 31.5
     },
     {
       "provinsi": "Sumatera Utara",
@@ -458,7 +458,7 @@
     },
     {
       "provinsi": "Kalimantan Timur",
-      "cv_persen": 29.3
+      "cv_persen": 29.5
     }
   ]
 }
