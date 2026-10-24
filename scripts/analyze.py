@@ -93,7 +93,7 @@ def main():
     # ---- October spike: rawit merah, last Sep value vs max in Oct ----
     rm = nas_n[nas_n["komoditas"] == "Cabai Rawit Merah"].sort_values("tanggal")
     sep = rm[(rm["tanggal"] >= "2026-09-01") & (rm["tanggal"] < "2026-10-01")]
-    okt = rm[(rm["tanggal"] >= "2026-10-01") & (rm["tanggal"] <= "2026-10-16")]
+    okt = rm[(rm["tanggal"] >= "2026-10-01") & (rm["tanggal"] <= "2026-10-24")]
     last_sep = sep.iloc[-1]
     max_okt = okt.sort_values("harga_rp_per_kg").iloc[-1]
     f["lonjakan_oktober_rawit_merah"] = {
