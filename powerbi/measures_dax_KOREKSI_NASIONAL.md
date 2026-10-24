@@ -9,15 +9,15 @@ measure aslinya menghitung SEMUA baris itu sekaligus, sehingga:
 - Harga rata-rata: masih benar (selisih cuma ~Rp5, karena seri
   Nasional pada dasarnya rata-rata provinsi).
 - Harga maksimum dan volatilitas: SALAH. Contoh Cabai Rawit Merah 2026:
-  measure asli memberi maks Rp175.000 dan CV 34,5%, padahal angka
-  README yang benar adalah maks Rp105.300 (12 Okt 2026) dan CV 18,8%.
-  Rp175.000 itu harga di satu provinsi pada Maret 2026, bukan harga
+  measure asli memberi maks Rp182.500 dan CV 35,0%, padahal angka
+  README yang benar adalah maks Rp105.450 (20 Okt 2026) dan CV 19,3%.
+  Rp182.500 itu harga di satu provinsi pada 2026, bukan harga
   nasional.
 - Peringkat provinsi: baris Nasional ikut diperingkatkan sebagai
   seolah-olah provinsi ke-35.
 
 Angka verifikasi di bawah dihitung langsung dari CSV di folder ini
-pada 2026-10-17. Dua cara memakai yang benar, pilih salah satu
+pada 2026-10-24. Dua cara memakai yang benar, pilih salah satu
 per visual: (A) pakai measure `Nasional` di bawah ini, ATAU
 (B) set slicer Provinsi = Nasional. Jangan andalkan keduanya
 kosong (slicer All + measure asli).
@@ -26,19 +26,19 @@ kosong (slicer All + measure asli).
 
 | Komoditas | Rata-rata Nasional | Maks Nasional | CV Nasional |
 |---|---|---|---|
-| Cabai Rawit Merah | Rp74.530 | Rp105.300 (12 Okt 2026) | 18,8% |
-| Cabai Merah Keriting | Rp53.277 | Rp88.350 | 20,0% |
-| Cabai Merah Besar | Rp51.706 | Rp76.450 | 16,1% |
-| Cabai Rawit Hijau | Rp56.578 | Rp79.750 | 12,3% |
+| Cabai Rawit Merah | Rp75.219 | Rp105.450 (20 Okt 2026) | 19,3% |
+| Cabai Merah Keriting | Rp54.072 | Rp88.350 | 21,7% |
+| Cabai Merah Besar | Rp52.267 | Rp76.450 | 17,2% |
+| Cabai Rawit Hijau | Rp57.124 | Rp80.100 | 13,5% |
 
 Cek per provinsi (pakai filter provinsi, buang Nasional): Rawit Merah
-termahal Maluku Utara Rp113.213, termurah Sumatera Utara Rp46.494,
-DKI Jakarta Rp78.792. Ketiganya cocok dengan README.
+termahal Maluku Utara Rp114.198, termurah Sumatera Utara Rp46.920,
+DKI Jakarta Rp78.870. Ketiganya cocok dengan README.
 
 Yang measure asli berikan kalau slicer dibiarkan All (SALAH untuk
-tampilan nasional): Rawit Merah maks Rp175.000, CV 34,5%; Keriting
-maks Rp156.900, CV 36,0%; Merah Besar maks Rp155.000, CV 35,1%;
-Rawit Hijau maks Rp185.000, CV 35,0%. Kalau kamu melihat angka-angka
+tampilan nasional): Rawit Merah maks Rp182.500, CV 35,0%; Keriting
+maks Rp156.900, CV 36,9%; Merah Besar maks Rp155.000, CV 35,7%;
+Rawit Hijau maks Rp185.000, CV 35,9%. Kalau kamu melihat angka-angka
 itu di dashboard, itu bug ini, bukan salah data.
 
 ## Measure Nasional (pakai untuk halaman Overview + Per Komoditas)
@@ -198,7 +198,7 @@ CALCULATE (
    jadi jangan dicari di Power BI. Kalau perlu perubahan day-over-day
    untuk seri Nasional, pakai `DATEADD ( dim_tanggal[tanggal], -1,
    DAY )` pada `[Harga Rata-Rata Nasional]`, dengan catatan PIHPS
-   hanya melapor ~207 hari di 2026 (hari kerja pasar), jadi Senin
+   hanya melapor ~212 hari di 2026 (hari kerja pasar), jadi Senin
    dibandingkan ke Jumat sebelumnya, bukan ke hari kalender
    sebelumnya yang kosong.
 
@@ -206,6 +206,6 @@ CALCULATE (
 
 Dengan measure koreksi di atas, tiga angka di Langkah 6
 `build_guide.md` harus cocok dengan README: rata-rata nasional 2026
-Rawit Merah Rp74.530, puncak Rp105.300 tanggal 12 Okt 2026, provinsi
+Rawit Merah Rp75.219, puncak Rp105.450 tanggal 20 Okt 2026, provinsi
 termahal Maluku Utara. Kalau masih beda, cek filter halaman/slicer
 provinsi dulu sebelum mengira datanya salah.
