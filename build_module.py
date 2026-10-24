@@ -206,7 +206,7 @@ P(f"Dari akhir September ({rp(lonj['akhir_september']['harga'])}/kg) ke puncak O
   f"pada September: rata-rata bulanan naik "
   f"{F['mom_rawit_merah_2026']['2026-09']:+}% dibanding Agustus, lalu Oktober naik lagi "
   f"{F['mom_rawit_merah_2026']['2026-10']:+}%.", "body")
-CHART("05_lonjakan_oktober.png", "Gambar 3 — Lonjakan harga harian, 15 Sep – 16 Okt 2026.")
+CHART("05_lonjakan_oktober.png", "Gambar 3 — Lonjakan harga harian, 15 Sep – 24 Okt 2026.")
 P("Pelajaran untuk analis: jangan hanya melihat harga hari ini. Bandingkan dengan "
   "rata-rata bergerak 7 hari (MA 7) dan perubahan month-over-month (MoM) — "
   "keduanya memberi sinyal lebih awal daripada harga harian mentah.", "body")
