@@ -467,6 +467,11 @@ tanggal,komoditas_id,komoditas,provinsi_id,provinsi,level,harga_rp_per_kg
 2026-10-14,com_13,Cabai Merah Besar,0,Nasional,0,76450
 2026-10-15,com_13,Cabai Merah Besar,0,Nasional,0,74850
 2026-10-16,com_13,Cabai Merah Besar,0,Nasional,0,75250
+2026-10-19,com_13,Cabai Merah Besar,0,Nasional,0,75050
+2026-10-20,com_13,Cabai Merah Besar,0,Nasional,0,75700
+2026-10-21,com_13,Cabai Merah Besar,0,Nasional,0,75850
+2026-10-22,com_13,Cabai Merah Besar,0,Nasional,0,75300
+2026-10-23,com_13,Cabai Merah Besar,0,Nasional,0,75600
 2025-01-01,com_14,Cabai Merah Keriting,0,Nasional,0,57400
 2025-01-02,com_14,Cabai Merah Keriting,0,Nasional,0,59900
 2025-01-03,com_14,Cabai Merah Keriting,0,Nasional,0,59800
@@ -935,6 +940,11 @@ tanggal,komoditas_id,komoditas,provinsi_id,provinsi,level,harga_rp_per_kg
 2026-10-14,com_14,Cabai Merah Keriting,0,Nasional,0,88250
 2026-10-15,com_14,Cabai Merah Keriting,0,Nasional,0,87250
 2026-10-16,com_14,Cabai Merah Keriting,0,Nasional,0,87500
+2026-10-19,com_14,Cabai Merah Keriting,0,Nasional,0,87350
+2026-10-20,com_14,Cabai Merah Keriting,0,Nasional,0,88100
+2026-10-21,com_14,Cabai Merah Keriting,0,Nasional,0,87100
+2026-10-22,com_14,Cabai Merah Keriting,0,Nasional,0,86350
+2026-10-23,com_14,Cabai Merah Keriting,0,Nasional,0,86100
 2025-01-01,com_15,Cabai Rawit Hijau,0,Nasional,0,50300
 2025-01-02,com_15,Cabai Rawit Hijau,0,Nasional,0,54350
 2025-01-03,com_15,Cabai Rawit Hijau,0,Nasional,0,56250
@@ -1403,6 +1413,11 @@ tanggal,komoditas_id,komoditas,provinsi_id,provinsi,level,harga_rp_per_kg
 2026-10-14,com_15,Cabai Rawit Hijau,0,Nasional,0,79600
 2026-10-15,com_15,Cabai Rawit Hijau,0,Nasional,0,79700
 2026-10-16,com_15,Cabai Rawit Hijau,0,Nasional,0,79750
+2026-10-19,com_15,Cabai Rawit Hijau,0,Nasional,0,79750
+2026-10-20,com_15,Cabai Rawit Hijau,0,Nasional,0,80100
+2026-10-21,com_15,Cabai Rawit Hijau,0,Nasional,0,79750
+2026-10-22,com_15,Cabai Rawit Hijau,0,Nasional,0,79750
+2026-10-23,com_15,Cabai Rawit Hijau,0,Nasional,0,79400
 2025-01-01,com_16,Cabai Rawit Merah,0,Nasional,0,69150
 2025-01-02,com_16,Cabai Rawit Merah,0,Nasional,0,74300
 2025-01-03,com_16,Cabai Rawit Merah,0,Nasional,0,75950
@@ -1871,3 +1886,8 @@ tanggal,komoditas_id,komoditas,provinsi_id,provinsi,level,harga_rp_per_kg
 2026-10-14,com_16,Cabai Rawit Merah,0,Nasional,0,104500
 2026-10-15,com_16,Cabai Rawit Merah,0,Nasional,0,103350
 2026-10-16,com_16,Cabai Rawit Merah,0,Nasional,0,103800
+2026-10-19,com_16,Cabai Rawit Merah,0,Nasional,0,103950
+2026-10-20,com_16,Cabai Rawit Merah,0,Nasional,0,105450
+2026-10-21,com_16,Cabai Rawit Merah,0,Nasional,0,103250
+2026-10-22,com_16,Cabai Rawit Merah,0,Nasional,0,103200
+2026-10-23,com_16,Cabai Rawit Merah,0,Nasional,0,102950
