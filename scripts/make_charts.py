@@ -113,11 +113,11 @@ def main():
     fig.savefig(CHARTS / "04_rata_rata_bulanan.png"); plt.close(fig)
 
     # 05 - Lonjakan Sep-Okt 2026 (harian)
-    win = piv[(piv.index >= "2026-09-15") & (piv.index <= "2026-10-16")]
+    win = piv[(piv.index >= "2026-09-15") & (piv.index <= "2026-10-24")]
     fig, ax = plt.subplots(figsize=(12, 5.5))
     for c in ORDER:
         ax.plot(win.index, win[c], color=COLORS[c], label=c, lw=1.8, marker="o", ms=3)
-    ax.set_title("Lonjakan Harga Cabai, 15 Sep - 16 Okt 2026")
+    ax.set_title("Lonjakan Harga Cabai, 15 Sep - 24 Okt 2026")
     ax.set_ylabel("Rp/kg"); ax.yaxis.set_major_formatter(mticker.FuncFormatter(rp))
     ax.legend(frameon=False, ncol=2); style(ax)
     ax.axhline(105000, color="gray", ls="--", lw=1)
