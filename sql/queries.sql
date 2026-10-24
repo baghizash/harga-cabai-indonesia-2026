@@ -50,10 +50,10 @@ WHERE substr(tanggal, 1, 4) = '2026' AND harga_rp_per_kg IS NOT NULL
 GROUP BY komoditas
 ORDER BY koefisien_variasi_persen DESC;
 
--- A5. Lonjakan Oktober 2026: harga harian 15 Sep–16 Okt 2026, seri nasional
+-- A5. Lonjakan Oktober 2026: harga harian 15 Sep–24 Okt 2026, seri nasional
 SELECT tanggal, komoditas, harga_rp_per_kg
 FROM harga_nasional
-WHERE tanggal BETWEEN '2026-09-15' AND '2026-10-16'
+WHERE tanggal BETWEEN '2026-09-15' AND '2026-10-24'
 ORDER BY tanggal, komoditas;
 
 -- A6. Tanggal pertama Cabai Rawit Merah menembus Rp100.000 dan Rp105.000 (2026)
@@ -106,7 +106,7 @@ ORDER BY bulan;
 SELECT tanggal, harga_rp_per_kg,
        ROUND(AVG(harga_rp_per_kg) OVER (ORDER BY tanggal ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)) AS ma7
 FROM harga_nasional
-WHERE komoditas = 'Cabai Rawit Merah' AND tanggal BETWEEN '2026-09-01' AND '2026-10-16'
+WHERE komoditas = 'Cabai Rawit Merah' AND tanggal BETWEEN '2026-09-01' AND '2026-10-24'
   AND harga_rp_per_kg IS NOT NULL
 ORDER BY tanggal;
 
